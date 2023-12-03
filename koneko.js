@@ -3930,6 +3930,20 @@ case 'motana': {
 ▧ 「 *M E M E* 」
 ${prefix}darkjoke
 ${prefix}memeindo·
+conn.sendMessage(m.chat, {
+    text: anu,
+    contextInfo: {
+      externalAdReply: {
+        showAdAttribution: true, 
+        title: `${ucapanWaktu} ${pushname}`,
+        body: "MOTANA",
+        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
+        mediaType: 1,
+        renderLargerThumbnail: true
+      }
+    }
+   })
    conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
 }
 break
