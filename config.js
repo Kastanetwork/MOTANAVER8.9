@@ -19,18 +19,18 @@ global.rosekey = 'cba86fac49e37d63f9bd4561' // ROSE
 global.keyai = '' // https://platform.openai.com/account/api-keys
 
 //—————「 Set Nama Bot & Own 」—————//
-global.namabot = 'ᴋᴏɴᴇᴋᴏ-ᴍᴅ'
-global.namaowner = '𝚔𝚘𝚒'
+global.namabot = 'MOTANA'
+global.namaowner = 'KASTARA'
 global.wagc = "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA"
 
 //—————「 Setting Owner 」—————//
-global.owner = ['6288210828960']
-global.nomerowner = '6288210828960'
+global.owner = ['6281952806095']
+global.nomerowner = '6281952806095'
 global.premium = ['6288210828960']
 
 //—————「 Set Wm 」—————//
-global.packname = 'ᴋᴏɴᴇᴋᴏ-ᴍᴅ'
-global.author = 'Bot: +62 895-3253-44177\nYouTube: QyuuNee\nInstagram: iamunderox_'
+global.packname = 'MOTANA'
+global.author = 'MOTANA PROJEK'
 global.prefa = ['', '.']
 global.sp = '•'
 
