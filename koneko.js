@@ -3487,31 +3487,20 @@ break
 case 'menu'
 case 'help'
 case 'motana': {
-    let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
+        let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
 
-lu
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'ownermenu': {
-    let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+*Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
+*Bailyes:* -
+*Runtime:* ${runtime(process.uptime())}
+*Total User:* ${Object.keys(global.db.data.users).length}
+*Total Premium:* ${prem.length}
+*Total Banned:* ${ban.length}
+*Total Fitur:* ${totalFitur()}
+*Name:* ${pushname}
+*Number:* ${m.sender.split('@')[0]}
+*Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
+*User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
+*Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
 
 ▧ 「 *O W N E R* 」
 │ ‣ ${prefix}listpc
@@ -3549,44 +3538,11 @@ case 'ownermenu': {
 │ ‣ ${prefix}autobio
 │ ‣  >
 │ ‣  =>
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu1.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
+└──···
 
-case 'funmenu': {
-    let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+▧ 「 *G E N S H I N* 」
+│ ‣ ${prefix}enka *<uid>*
+└──···
 
 ▧ 「 *F U N* 」
 │ ‣ ${prefix}apakah
@@ -3611,44 +3567,11 @@ case 'funmenu': {
 │ ‣ ${prefix}huluh
 │ ‣ ${prefix}heleh
 │ ‣ ${prefix}holoh
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu2.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
+└──···
 
-case 'mainmenu': {
-    let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+▧ 「 *G A M E S* 」
+│ ‣ ${prefix}tebak gambar
+└──···
 
 ▧ 「 *M A I N* 」
 │ ‣ ${prefix}owner
@@ -3657,44 +3580,7 @@ case 'mainmenu': {
 │ ‣ ${prefix}speedtest
 │ ‣ ${prefix}runtime
 │ ‣ ${prefix}ceklimit
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu3.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-
-case 'premmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *P R E M I U M* 」
 │ ‣ ${prefix}ktpmaker
@@ -3708,44 +3594,7 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}sagiri
 │ ‣ ${prefix}shinobu
 │ ‣ ${prefix}wallnime
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu4.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-
-case 'primbonmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *P R I M B O N* 」
 │ ‣ ${prefix}nomorhoki
@@ -3778,44 +3627,7 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}masasubur
 │ ‣ ${prefix}zodiak
 │ ‣ ${prefix}shio
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu5.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-
-case 'groupmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *G R O U P* 」
 │ ‣ ${prefix}kick
@@ -3841,45 +3653,9 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}linkgc
 │ ‣ ${prefix}revoke
 │ ‣ ${prefix}liston
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu6.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'datamenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
+└──···
 
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *D A T A B A S E* 」
+▧ 「 *D A T A* 」
 │ ‣ ${prefix}setcmd [reply sticker/pesan]
 │ ‣ ${prefix}listcmd
 │ ‣ ${prefix}delcmd [reply sticker/pesan]
@@ -3888,43 +3664,28 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}listmsg
 │ ‣ ${prefix}getmsg
 │ ‣ ${prefix}delmsg
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu7.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'ramdonmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
+└──···
 
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+▧ 「 *N S F W  P R E M I U M* 」
+│ ‣ ${prefix}ahegao
+│ ‣ ${prefix}cum
+│ ‣ ${prefix}panties
+│ ‣ ${prefix}bdsm
+│ ‣ ${prefix}tits
+│ ‣ ${prefix}milf
+│ ‣ ${prefix}yuri
+│ ‣ ${prefix}lewd
+│ ‣ ${prefix}ero
+│ ‣ ${prefix}armpits
+│ ‣ ${prefix}feets
+│ ‣ ${prefix}ecchi
+│ ‣ ${prefix}neko2
+│ ‣ ${prefix}loli2
+│ ‣ ${prefix}pussy
+│ ‣ ${prefix}cum_jpg
+│ ‣ ${prefix}blowjob
+│ ‣ ${prefix}lewdk
+└──···
 
 ▧ 「 *R A M D O N* 」
 │ ‣ ${prefix}pokemon
@@ -3949,45 +3710,9 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}programming
 │ ‣ ${prefix}technology 
 │ ‣ ${prefix}couple
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu8.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'asupanmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
+└──···
 
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *A S U P A N*」
+▧ 「 *A S U P A N* 」
 │ ‣ ${prefix}cecan
 │ ‣ ${prefix}china
 │ ‣ ${prefix}cogan
@@ -3997,43 +3722,7 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}malaysia
 │ ‣ ${prefix}thailand
 │ ‣ ${prefix}vietnam
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu9.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'toolsmenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *T O O L S* 」
 │ ‣ ${prefix}style
@@ -4053,43 +3742,7 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}robot
 │ ‣ ${prefix}slow
 │ ‣ ${prefix}tupai
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu10.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'creatormenu': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *C R E A T O R  I M A G E* 」
 │ ‣ ${prefix}tololsertifikat *<text>*
@@ -4100,43 +3753,7 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
 │ ‣ ${prefix}attp2 *<text>*
 │ ‣ ${prefix}qcimg *<text>*
 │ ‣ ${prefix}qc *<text>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu11.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'islammenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *I S L A M* 」
 │ ‣ ${prefix}asmaulhusna
@@ -4149,43 +3766,7 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}juzamma
 │ ‣ ${prefix}hadist
 │ ‣ ${prefix}tasfirsurah
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu12.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'downmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *D O W N L O A D* 」
 │ ‣ ${prefix}ytplay
@@ -4197,177 +3778,8 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}tiktokaudio
 │ ‣ ${prefix}twtdl
 │ ‣ ${prefix}fbdl
-│ ‣ ${prefix}mediafire
 │ ‣ ${prefix}gitclone
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu13.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'ephoto1': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *E P H O T O _1_* 」
-│ ‣ ${prefix}wetglass *<text>*
-│ ‣ ${prefix}multicolor3d *<text>*
-│ ‣ ${prefix}watercolor *<text>*
-│ ‣ ${prefix}luxurygold *<text>*
-│ ‣ ${prefix}galaxywallpaper *<text>*
-│ ‣ ${prefix}lighttext *<text>*
-│ ‣ ${prefix}beautifulflower *<text>*
-│ ‣ ${prefix}puppycute *<text>*
-│ ‣ ${prefix}royaltext *<text>*
-│ ‣ ${prefix}heartshaped *<text>*
-│ ‣ ${prefix}birthdaycake *<text>*
-│ ‣ ${prefix}galaxystyle *<text>*
-│ ‣ ${prefix}hologram3d *<text>*
-│ ‣ ${prefix}greenneon *<text>*
-│ ‣ ${prefix}glossychrome *<text>*
-│ ‣ ${prefix}greenbush *<text>*
-│ ‣ ${prefix}metallogo *<text>*
-│ ‣ ${prefix}noeltext *<text>*
-│ ‣ ${prefix}glittergold *<text>*
-│ ‣ ${prefix}textcake *<text>*
-│ ‣ ${prefix}starsnight *<text>*
-│ ‣ ${prefix}wooden3d *<text>*
-│ ‣ ${prefix}textbyname *<text>*
-│ ‣ ${prefix}writegalacy *<text>*
-│ ‣ ${prefix}galaxybat *<text>*
-│ ‣ ${prefix}snow3d *<text>*
-│ ‣ ${prefix}birthdayday *<text>*
-│ ‣ ${prefix}goldplaybutton *<text>*
-│ ‣ ${prefix}silverplaybutton *<text>*
-│ ‣ ${prefix}freefire *<text>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu14.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'photooxy1': {
-let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *P H O T O  O X Y _1_* 」
-│ ‣ ${prefix}shadow *<text>*
-│ ‣ ${prefix}cup *<text>*
-│ ‣ ${prefix}cup1 *<text>*
-│ ‣ ${prefix}romance *<text>*
-│ ‣ ${prefix}smoke *<text>*
-│ ‣ ${prefix}burnpaper *<text>*
-│ ‣ ${prefix}lovemessage *<text>*
-│ ‣ ${prefix}undergrass *<text>*
-│ ‣ ${prefix}love *<text>*
-│ ‣ ${prefix}coffe *<text>*
-│ ‣ ${prefix}woodheart *<text>*
-│ ‣ ${prefix}woodenboard *<text>*
-│ ‣ ${prefix}summer3d *<text>*
-│ ‣ ${prefix}wolfmetal *<text>*
-│ ‣ ${prefix}nature3d *<text>*
-│ ‣ ${prefix}underwater *<text>*
-│ ‣ ${prefix}golderrose *<text>*
-│ ‣ ${prefix}summernature *<text>*
-│ ‣ ${prefix}letterleaves *<text>*
-│ ‣ ${prefix}glowingneon *<text>*
-│ ‣ ${prefix}fallleaves *<text>*
-│ ‣ ${prefix}flamming *<text>*
-│ ‣ ${prefix}harrypotter *<text>*
-│ ‣ ${prefix}carvedwood *<text>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu15.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'textpro1': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *T E X T  P R O _1_* 」
 │ ‣ ${prefix}blackpink *<text>*
@@ -4402,45 +3814,6 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}summersand *<text>*
 │ ‣ ${prefix}horrorblood *<text>*
 │ ‣ ${prefix}thunder *<text>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu5.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'textpro2': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *T E X T  P R O _2_* 」
 │ ‣ ${prefix}pornhub *<text>*
 │ ‣ ${prefix}glitch *<text>*
 │ ‣ ${prefix}avenger *<text>*
@@ -4451,222 +3824,7 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}wolflogo *<text>*
 │ ‣ ${prefix}steel3d *<text>*
 │ ‣ ${prefix}wallgravity *<text>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu3.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'nsfwmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *N S F W  P R E M I U M* 」
-│ ‣ ${prefix}ahegao
-│ ‣ ${prefix}cum
-│ ‣ ${prefix}panties
-│ ‣ ${prefix}bdsm
-│ ‣ ${prefix}tits
-│ ‣ ${prefix}milf
-│ ‣ ${prefix}yuri
-│ ‣ ${prefix}lewd
-│ ‣ ${prefix}ero
-│ ‣ ${prefix}armpits
-│ ‣ ${prefix}feets
-│ ‣ ${prefix}ecchi
-│ ‣ ${prefix}neko2
-│ ‣ ${prefix}loli2
-│ ‣ ${prefix}pussy
-│ ‣ ${prefix}cum_jpg
-│ ‣ ${prefix}blowjob
-│ ‣ ${prefix}lewdk
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'aimenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *A I* 」
-│ ‣ ${prefix}ai *<text>*
-│ ‣ ${prefix}jadianime
-│ ‣ ${prefix}remini
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu8.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'genshinmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *G E N S H I N* 」
-│ ‣ ${prefix}enka *<uid>*
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'gamemenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *G A M E S* 」
-│ ‣ ${prefix}tebak gambar
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'infomenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *I N F O R M A T I O N* 」
 │ ‣ ${prefix}kbbi
@@ -4688,45 +3846,12 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}kodepos
 │ ‣ ${prefix}infochat
 │ ‣ ${prefix}google
-│ ‣ ${prefix}gimage
 │ ‣ ${prefix}pinterest
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu11.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'animemenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
+└──···
 
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+▧ 「 *A I* 」
+│ ‣ ${prefix}ai *<text>*
+└──···
 
 ▧ 「 *A N I M E* 」
 │ ‣ ${prefix}cosplay
@@ -4777,43 +3902,7 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}kurumi
 │ ‣ ${prefix}miku
 │ ‣ ${prefix}pokemon
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu15.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'convertmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *C O N V E R T* 」
 │ ‣ ${prefix}stiker
@@ -4827,43 +3916,7 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}tomp3
 │ ‣ ${prefix}tovn
 │ ‣ ${prefix}togif
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu13.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'stalkmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *S T A L K E R* 」
 │ ‣ ${prefix}enka
@@ -4872,263 +3925,12 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
 │ ‣ ${prefix}mlstalk
 │ ‣ ${prefix}ghstalk
 │ ‣ ${prefix}twstalk
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'soundmenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
-
-▧ 「 *S O U N D* 」
-│ ‣ ${prefix}sound1
-│ ‣ ${prefix}sound2
-│ ‣ ${prefix}sound3
-│ ‣ ${prefix}sound4
-│ ‣ ${prefix}sound5
-│ ‣ ${prefix}sound6
-│ ‣ ${prefix}sound7
-│ ‣ ${prefix}sound8
-│ ‣ ${prefix}sound9
-│ ‣ ${prefix}sound10
-│ ‣ ${prefix}sound11
-│ ‣ ${prefix}sound12
-│ ‣ ${prefix}sound13
-│ ‣ ${prefix}sound14
-│ ‣ ${prefix}sound15
-│ ‣ ${prefix}sound16
-│ ‣ ${prefix}sound17
-│ ‣ ${prefix}sound18
-│ ‣ ${prefix}sound19
-│ ‣ ${prefix}sound20
-│ ‣ ${prefix}sound21
-│ ‣ ${prefix}sound22
-│ ‣ ${prefix}sound23
-│ ‣ ${prefix}sound24
-│ ‣ ${prefix}sound25
-│ ‣ ${prefix}sound26
-│ ‣ ${prefix}sound27
-│ ‣ ${prefix}sound28
-│ ‣ ${prefix}sound29
-│ ‣ ${prefix}sound30
-│ ‣ ${prefix}sound31
-│ ‣ ${prefix}sound32
-│ ‣ ${prefix}sound33
-│ ‣ ${prefix}sound34
-│ ‣ ${prefix}sound35
-│ ‣ ${prefix}sound36
-│ ‣ ${prefix}sound37
-│ ‣ ${prefix}sound38
-│ ‣ ${prefix}sound39
-│ ‣ ${prefix}sound40
-│ ‣ ${prefix}sound41
-│ ‣ ${prefix}sound42
-│ ‣ ${prefix}sound43
-│ ‣ ${prefix}sound44
-│ ‣ ${prefix}sound45
-│ ‣ ${prefix}sound46
-│ ‣ ${prefix}sound47
-│ ‣ ${prefix}sound48
-│ ‣ ${prefix}sound49
-│ ‣ ${prefix}sound50
-│ ‣ ${prefix}sound51
-│ ‣ ${prefix}sound52
-│ ‣ ${prefix}sound53
-│ ‣ ${prefix}sound54
-│ ‣ ${prefix}sound55
-│ ‣ ${prefix}sound56
-│ ‣ ${prefix}sound57
-│ ‣ ${prefix}sound58
-│ ‣ ${prefix}sound59
-│ ‣ ${prefix}sound60
-│ ‣ ${prefix}sound61
-│ ‣ ${prefix}sound62
-│ ‣ ${prefix}sound63
-│ ‣ ${prefix}sound64
-│ ‣ ${prefix}sound65
-│ ‣ ${prefix}sound66
-│ ‣ ${prefix}sound67
-│ ‣ ${prefix}sound68
-│ ‣ ${prefix}sound69
-│ ‣ ${prefix}sound70
-│ ‣ ${prefix}sound71
-│ ‣ ${prefix}sound72
-│ ‣ ${prefix}sound73
-│ ‣ ${prefix}sound74
-│ ‣ ${prefix}sound75
-│ ‣ ${prefix}sound76
-│ ‣ ${prefix}sound77
-│ ‣ ${prefix}sound78
-│ ‣ ${prefix}sound79
-│ ‣ ${prefix}sound80
-│ ‣ ${prefix}sound81
-│ ‣ ${prefix}sound82
-│ ‣ ${prefix}sound83
-│ ‣ ${prefix}sound84
-│ ‣ ${prefix}sound85
-│ ‣ ${prefix}sound86
-│ ‣ ${prefix}sound87
-│ ‣ ${prefix}sound88
-│ ‣ ${prefix}sound89
-│ ‣ ${prefix}sound90
-│ ‣ ${prefix}sound91
-│ ‣ ${prefix}sound92
-│ ‣ ${prefix}sound93
-│ ‣ ${prefix}sound94
-│ ‣ ${prefix}sound95
-│ ‣ ${prefix}sound96
-│ ‣ ${prefix}sound97
-│ ‣ ${prefix}sound98
-│ ‣ ${prefix}sound99
-│ ‣ ${prefix}sound100
-│ ‣ ${prefix}sound101
-│ ‣ ${prefix}sound102
-│ ‣ ${prefix}sound103
-│ ‣ ${prefix}sound104
-│ ‣ ${prefix}sound105
-│ ‣ ${prefix}sound106
-│ ‣ ${prefix}sound107
-│ ‣ ${prefix}sound108
-│ ‣ ${prefix}sound109
-│ ‣ ${prefix}sound110
-│ ‣ ${prefix}sound111
-│ ‣ ${prefix}sound112
-│ ‣ ${prefix}sound113
-│ ‣ ${prefix}sound114
-│ ‣ ${prefix}sound115
-│ ‣ ${prefix}sound116
-│ ‣ ${prefix}sound117
-│ ‣ ${prefix}sound118
-│ ‣ ${prefix}sound119
-│ ‣ ${prefix}sound120
-│ ‣ ${prefix}sound121
-│ ‣ ${prefix}sound122
-│ ‣ ${prefix}sound123
-│ ‣ ${prefix}sound124
-│ ‣ ${prefix}sound125
-│ ‣ ${prefix}sound126
-│ ‣ ${prefix}sound127
-│ ‣ ${prefix}sound128
-│ ‣ ${prefix}sound129
-│ ‣ ${prefix}sound130
-│ ‣ ${prefix}sound131
-│ ‣ ${prefix}sound132
-│ ‣ ${prefix}sound133
-│ ‣ ${prefix}sound134
-│ ‣ ${prefix}sound135
-│ ‣ ${prefix}sound136
-│ ‣ ${prefix}sound137
-│ ‣ ${prefix}sound138
-│ ‣ ${prefix}sound139
-│ ‣ ${prefix}sound140
-│ ‣ ${prefix}sound141
-│ ‣ ${prefix}sound142
-│ ‣ ${prefix}sound143
-│ ‣ ${prefix}sound144
-│ ‣ ${prefix}sound145
-│ ‣ ${prefix}sound146
-│ ‣ ${prefix}sound147
-│ ‣ ${prefix}sound148
-│ ‣ ${prefix}sound149
-│ ‣ ${prefix}sound150
-│ ‣ ${prefix}sound151
-│ ‣ ${prefix}sound152
-│ ‣ ${prefix}sound153
-│ ‣ ${prefix}sound154
-│ ‣ ${prefix}sound155
-│ ‣ ${prefix}sound156
-│ ‣ ${prefix}sound157
-│ ‣ ${prefix}sound158
-│ ‣ ${prefix}sound159
-│ ‣ ${prefix}sound160
-│ ‣ ${prefix}sound161
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "Motana",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
-}
-break
-case 'mememenu': {
-let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it easier for you to solve problems with the internet quickly.
-
-  ☍ *Mode:* ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'}
-  ☍ *Bailyes:* -
-  ☍ *Runtime:* ${runtime(process.uptime())}
-  ☍ *Total User:* ${Object.keys(global.db.data.users).length}
-  ☍ *Total Premium:* ${prem.length}
-  ☍ *Total Banned:* ${ban.length}
-  ☍ *Total Fitur:* ${totalFitur()}
-  
-▧ 「 *I N F O  U S E R* 」
-
-   ☍ *Name:* ${pushname}
-   ☍ *Number:* ${m.sender.split('@')[0]}
-   ☍ *Status:* ${isCreator ? "Owner 🥶" : "User ⭐"}
-   ☍ *User:* ${isPremium ? 'Premium 🥶' : 'Gratisan ⭐'}
-   ☍ *Limit:* ${isCreator ? 'Unlimited 🥶' : `${db.data.users[m.sender].limit}⭐`}
-   
+└──···
 
 ▧ 「 *M E M E* 」
-│ ‣ ${prefix}darkjoke
-│ ‣ ${prefix}memeindo
-└──···`
-conn.sendMessage(m.chat, {
-    text: anu,
-    contextInfo: {
-      externalAdReply: {
-        showAdAttribution: true, 
-        title: `${ucapanWaktu} ${pushname}`,
-        body: "ᴋᴏɴᴇᴋᴏ-ᴍᴅ",
-        thumbnailUrl: "https://telegra.ph/file/494390d328c5af8f186d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/HcCRmsV8l0q4gLstSQsLkA",
-        mediaType: 1,
-        renderLargerThumbnail: true
-      }
-    }
-   })
-   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu6.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
+${prefix}darkjoke
+${prefix}memeindo·
+   conn.sendMessage(m.chat, { audio: fs.readFileSync('./mp3/menu.mp3'), mimetype: 'audio/mp4', ptt: true, fileLength: 88738})
 }
 break
             default:
